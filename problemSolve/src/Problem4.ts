@@ -36,9 +36,6 @@
 
 
     }
-
-
-
     const myCar = new Car("Toyota", 2020, "Corolla");
     myCar.getInfo();   // Output: "Make: Toyota, Year: 2020"
     myCar.getModel();  // Output: "Model: Corolla"
