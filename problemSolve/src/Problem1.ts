@@ -1,7 +1,5 @@
 {
 
-
-
     function formatString(input: string, toUpper: boolean = true): string {
         if (toUpper) {
             const result = input.toUpperCase();
@@ -18,8 +16,6 @@
     formatString("Hello");          // Output: "HELLO"
     formatString("Hello", true);   // Output: "HELLO"
     formatString("Hello", false);  // Output: "hello"
-
-
 
 
 }
